@@ -60,7 +60,6 @@ h6 {font-size: 16px;}
     display: grid;
     text-align: center;
     align-content: center;
-    border: 2px dashed peru;
     min-height: 10em;
 }
 
