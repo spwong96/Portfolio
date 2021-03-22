@@ -9,6 +9,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Slab&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="default.css">
+
+
+        <link id="theme-style" rel="stylesheet" type="text/css" href="">
     </head>
     <body>
         <section class="s1">
@@ -17,26 +20,175 @@
                   <h1>Hello, I am Polly Wong.</h1>  
                 </div>
                 
+
+                <div class="intro-wrapper">
+                    <div class="nav-wrapper">
+                        <div class="dots-wrapper">
+                            <div id="dot-1" class="browser-dot"></div>
+                            <div id="dot-2" class="browser-dot"></div>
+                            <div id="dot-3" class="browser-dot"></div>
+                        </div>
+
+                        <ul id="navigation">
+                            <li>
+                                <a href="#contact-form">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                
+                    <div class="left-column">
+                        <img id="profile-pic" src="images/Polly.JPG">
+                        <h5 style="text-align: center; line-height: 0;">Personalized Theme</h5>
+                    
+                        <div id="theme-options-wrapper">
+                            <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                            <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                            <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                            <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+                        </div>
+
+                        <p id="settings-note">*Theme settings will be saved for<br>your next visit</p>
+                    
+                    </div>
+                    
+                    <div class="right-column">
+                        <div id="preview-shadow">
+                            <div id="preview">
+                                <div id="corner-tl" class="corner"></div>
+                                <div id="corner-tr" class="corner"></div>
+
+                                <h3>What I Do</h3>
+                                <p>I am a software developer looking for new opportunties!</p>
+                                
+                                <div id="corner-br" class="corner"></div>
+                                <div id="corner-bl" class="corner"></div>                        
+                            </div>                            
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
         </section>
 
         <section class="s2">
             <div class="main-container">
-                About
+                <div class="about-wrapper">
+                    <div class="about-me">
+                        <h4>More about me</h4>
+                        <p>New to the programming world, looking for a job in Java/JavaScript. I am multilingual, love to learn, and am excited for new possibilities. I have a passion for problem solving and design. I am a team player and have experience working with different organizations and executing new ideas. </p>
+
+                        <p>What I lack in work experience, I make up for with my ability to learn quickly and projects I have done. I studied in a 3-month coding program where I picked up skills necessary for Web Development. I am constantly trying to learn and adding new skills to my belt.</p>
+                        
+                    </div>
+                    <hr>
+                    <div class="skills-languages">
+                        <h4>Skills/Languages</h4>
+
+                        <p>Fullstack developer in Java + Spring and MySQL. Check out my <a href="Wong, Polly Resume 2021.pdf" target="_blank">resume</a>!</p>
+
+                        <div id="skills">
+                            <ul>
+                                <li>Java</li>
+                                <li>JavaScript</li>
+                                <li>HTML/CSS</li>
+                                <li>Spring</li>
+                                <li>AngularJS</li>
+                                <li>MySQL</li>
+                            </ul>
+
+                            <ul>
+                                <li>Bootstrap</li>
+                                <li>JSON</li>
+                                <li>Thymeleaf</li>
+                                <li>jQuery</li>
+                                <li>Japanese</li>
+                                <li>Cantonese</li>
+                            </ul>
+                        </div>   
+
+                    </div>
+                </div>
             </div>
+            
         </section>
 
         <section class="s1">
             <div class="main-container">
-                Portfolio
+                <h3 style="text-align: center;">Some of my projects</h3>
+                <div class="post-wrapper">
+                    
+                    <div>
+                        <div class="post"> 
+                            <img class="thumbnail" src="images/Polly.JPG">
+                            <div class="post-preview">
+                                <h6 class="post-title">Post Title</h6>
+                                <p class="post-intro">description</p>
+                            </div>
+                        </div>                        
+                    </div>
+
+                    <div>
+                        <div class="post"> 
+                            <img class="thumbnail" src="images/Polly.JPG">
+                            <div class="post-preview">
+                                <h6 class="post-title">Post Title</h6>
+                                <p class="post-intro">description</p>
+                            </div>
+                        </div>                        
+                    </div>
+
+                    <div>
+                        <div class="post"> 
+                            <img class="thumbnail" src="images/Polly.JPG">
+                            <div class="post-preview">
+                                <h6 class="post-title">Post Title</h6>
+                                <p class="post-intro">description</p>
+                            </div>
+                        </div>                        
+                    </div>
+
+                </div>
+                
             </div>
         </section>
 
         <section class="s2">
             <div class="main-container">
-                Contact
+                <h3 style="text-align: center;">Get in contact!</h3>
+
+                <div class="contact-click">
+                    <a href="https://www.linkedin.com/in/spwong96/" target="_blank">
+                        <img class="contact-icon" src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/linkedin_circle-512.png">
+                    </a>
+                    <a href="https://www.github.com/spwong96/" target="_blank">
+                        <img class="contact-icon" src="https://image.flaticon.com/icons/png/512/25/25231.png">
+                    </a>
+                    
+                </div>                
+                
+                <p id="settings-note">*Not a working form, for display purposes only. Please use the provided contact methods above.</p>
+                <form id="contact-form">
+                    <label>Name</label>
+                    <input class="input-field" type="text" name="name">
+
+                    <label>Subject</label>
+                    <input class="input-field" type="text" name="subject">
+
+                    <label>Email</label>
+                    <input class="input-field" type="email" name="email">
+
+                    <label>Message</label>
+                    <textarea class="input-field" type="text" name="message"></textarea>
+
+                    <input id="submit-btn" type="submit" value="Send">
+                </form>
+                
             </div>
         </section>
+    
+        <script type="text/javascript" src="script.js"></script>
 
     </body>
 </html>
