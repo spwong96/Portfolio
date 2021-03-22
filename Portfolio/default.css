@@ -300,13 +300,9 @@ h6 {font-size: 16px;}
 }
 
 .post-preview {
-    border-radius: 5px;
+    border-radius: 0 0 5px 5px;
     background-color: #fff;
     padding: 15px;
-}
-
-.post:hover {
-    margin: 5px;
 }
 
 .post-title {
@@ -317,6 +313,7 @@ h6 {font-size: 16px;}
 .post-intro {
     color: #222222;
     font-size: 15px;
+    
 }
 
 .thumbnail {
