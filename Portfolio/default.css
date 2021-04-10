@@ -299,6 +299,11 @@ h6 {font-size: 16px;}
     box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
 }
 
+.post:hover {
+    opacity: .5; 
+    background: #000;
+}
+
 .post-preview {
     border-radius: 0 0 5px 5px;
     background-color: #fff;
@@ -321,7 +326,7 @@ h6 {font-size: 16px;}
     display: block;
     height: 180px;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .contact-click {
